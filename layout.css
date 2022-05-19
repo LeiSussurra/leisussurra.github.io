@@ -54,7 +54,6 @@ img, object, embed, video {
 #sidebar {
 	clear: none;
 	float: left;
-	margin-left: 2.6785%;
 	width: 100%;
 	display: block;
 	color: #000;
@@ -97,7 +96,6 @@ img, object, embed, video {
 #sidebar {
 	clear: none;
 	float: left;
-	margin-left: 1.6574%;
 	width: 100%;
 	display: block;
 	color: #000;
@@ -148,6 +146,7 @@ img, object, embed, video {
 	display: block;
 	color: #000;
 	text-align: justify;
+	margin-right: 0px;
 }
 #about {
 	clear: both;
