@@ -34,6 +34,7 @@ img, object, embed, video {
 	width: 88.626%;
 	padding-left: 1.1869%;
 	padding-right: 1.1869%;
+	font-family: sans-serif;
 }
 #header {
 	clear: both;
@@ -67,6 +68,20 @@ img, object, embed, video {
 	display: block;
 	color: #000;
 	text-align: justify;
+}
+img {
+	float: right;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#logo {
+	float: none;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -76,6 +91,7 @@ img, object, embed, video {
 	width: 91.4836%;
 	padding-left: 0.7581%;
 	padding-right: 0.7581%;
+	font-family: sans-serif;
 }
 #header {
 	clear: both;
@@ -109,6 +125,19 @@ img, object, embed, video {
 	display: block;
 	color: #000;
 	text-align: justify;
+}
+img {
+	float: right;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#logo {
+	float: none;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 }
 
@@ -121,6 +150,7 @@ img, object, embed, video {
 	padding-left: 0.4891%;
 	padding-right: 0.4891%;
 	margin: auto;
+	font-family: sans-serif;
 }
 #header {
 	clear: both;
@@ -137,6 +167,7 @@ img, object, embed, video {
 	display: block;
 	color: #000;
 	text-align: justify;
+	font-family: sans-serif;
 }
 #sidebar {
 	clear: none;
@@ -147,6 +178,7 @@ img, object, embed, video {
 	color: #000;
 	text-align: justify;
 	margin-right: 0px;
+	font-family: sans-serif;
 }
 #about {
 	clear: both;
@@ -156,5 +188,18 @@ img, object, embed, video {
 	display: block;
 	color: #000;
 	text-align: justify;
+}
+img {
+	float: right;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#logo {
+	float: none;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 }
