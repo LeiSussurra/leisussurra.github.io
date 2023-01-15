@@ -26,7 +26,8 @@ img, object, embed, video {
 	http://goldengridsystem.com/
 */
 
-/* Mobile Layout: 480px and below. */
+/* Mobile Layout: 200px to 480px */
+@media only screen and (min-width: 200px) {
 
 .gridContainer {
 	margin-left: auto;
@@ -70,11 +71,11 @@ img, object, embed, video {
 	text-align: justify;
 }
 img {
-	float: right;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	float: none;
+	padding-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 }
 #logo {
 	float: none;
@@ -111,7 +112,7 @@ img {
 }
 #sidebar {
 	clear: none;
-	float: left;
+	float: right;
 	width: 100%;
 	display: block;
 	color: #000;
@@ -128,10 +129,8 @@ img {
 }
 img {
 	float: right;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
 #logo {
 	float: none;
@@ -171,7 +170,7 @@ img {
 }
 #sidebar {
 	clear: none;
-	float: left;
+	float: right;
 	margin-left: 9.5238%;
 	width: 24.1758%;
 	display: block;
@@ -191,10 +190,8 @@ img {
 }
 img {
 	float: right;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
 #logo {
 	float: none;
