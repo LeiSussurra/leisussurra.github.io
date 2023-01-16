@@ -79,9 +79,10 @@ img {
 }
 #logo {
 	float: none;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 0px;
+	padding-top: 10px;
 }
 }
 
@@ -134,9 +135,10 @@ img {
 }
 #logo {
 	float: none;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 0px;
+	padding-top: 10px;
 }
 }
 
@@ -195,9 +197,10 @@ img {
 }
 #logo {
 	float: none;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 0px;
+	padding-top: 10px;
 }
 }
 
