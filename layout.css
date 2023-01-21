@@ -219,8 +219,8 @@ img {
 	padding-top: 10px;
 }
 }
-/* Mobile and Tablet Rotated Layout: 925px to a max of 1081px. */
-@media (min-width: 925px){
+/* Mobile and Tablet Rotated Layout: 914px to a max of 1081px. */
+@media (min-width: 914px){
 .gridContainer {
 	width: 89.0217%;
 	max-width: 1232px;
