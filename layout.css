@@ -144,7 +144,7 @@ img {
 
 /* Desktop Layout: 769px to a max of 925px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 769px) {
 .gridContainer {
 	width: 89.0217%;
 	max-width: 1232px;
@@ -169,6 +169,10 @@ img {
 	color: #000;
 	text-align: justify;
 	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	top: 0;
+	height: 100vh;
 }
 #sidebar {
 	clear: none;
@@ -180,6 +184,10 @@ img {
 	text-align: justify;
 	margin-right: 0px;
 	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	top: 0;
+	height: 100vh;
 }
 #about {
 	clear: both;
