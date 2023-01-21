@@ -291,7 +291,7 @@ img {
 }
 
 /* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
-@media (min-width: 1025px){
+@media (min-width: 1023px){
 .gridContainer {
 	width: 89.0217%;
 	max-width: 1232px;
