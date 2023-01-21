@@ -112,7 +112,6 @@ img {
 	text-align: justify;
 	overflow: scroll;
 	position: sticky;
-	scrollbar-width: none;
 	top: 0;
 	height: 100vh;
 }
@@ -125,7 +124,6 @@ img {
 	text-align: justify;
 	overflow: scroll;
 	position: sticky;
-	scrollbar-width: none;
 	top: 0;
 	height: 100vh;
 }
@@ -181,7 +179,6 @@ img {
 	font-family: sans-serif;
 	overflow: scroll;
 	position: sticky;
-	scrollbar-width: none;
 	top: 0;
 	height: 100vh;
 }
@@ -197,7 +194,6 @@ img {
 	font-family: sans-serif;
 	overflow: scroll;
 	position: sticky;
-	scrollbar-width: none;
 	top: 0;
 	height: 100vh;
 }
