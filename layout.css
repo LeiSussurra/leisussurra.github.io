@@ -150,9 +150,148 @@ img {
 }
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+/* Desktop Layout: 769px to a max of 925px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+	font-family: sans-serif;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#articles {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 66.3003%;
+	display: block;
+	color: #000;
+	text-align: justify;
+	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+}
+#sidebar {
+	clear: none;
+	float: right;
+	margin-left: 9.5238%;
+	width: 24.1758%;
+	display: block;
+	color: #000;
+	text-align: justify;
+	margin-right: 0px;
+	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+}
+#about {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	color: #000;
+	text-align: justify;
+}
+img {
+	float: right;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#logo {
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+}
+/* Mobile and Tablet Rotated Layout: 925px to a max of 1081px. */
+@media (min-width: 925px){
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+	font-family: sans-serif;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#articles {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 66.3003%;
+	display: block;
+	color: #000;
+	text-align: justify;
+	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+}
+#sidebar {
+	clear: none;
+	float: right;
+	margin-left: 9.5238%;
+	width: 24.1758%;
+	display: block;
+	color: #000;
+	text-align: justify;
+	margin-right: 0px;
+	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+}
+#about {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	color: #000;
+	text-align: justify;
+}
+img {
+	float: none;
+	padding-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+#logo {
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 0px;
+	padding-top: 10px;
+}
+}
+
+/* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
+@media (min-width: 1081px){
 .gridContainer {
 	width: 89.0217%;
 	max-width: 1232px;
