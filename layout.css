@@ -199,64 +199,6 @@ img {
 	padding-top: 10px;
 }
 }
-/* Mobile and Tablet Rotated Layout: 914px to a max of 1023px. */
-@media (min-width: 843px){
-.gridContainer {
-	width: 89.0217%;
-	max-width: 1232px;
-	padding-left: 0.4891%;
-	padding-right: 0.4891%;
-	margin: auto;
-	font-family: sans-serif;
-}
-#header {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#articles {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-	color: #000;
-	text-align: justify;
-}
-#sidebar {
-	clear: none;
-	float: right;
-	width: 100%;
-	display: block;
-	color: #000;
-	text-align: justify;
-}
-#about {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-	color: #000;
-	text-align: justify;
-}
-img {
-	float: none;
-	padding-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-}
-#logo {
-	float: none;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: 0px;
-	padding-top: 10px;
-}
-}
 
 /* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
 @media (min-width: 1023px){
