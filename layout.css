@@ -199,7 +199,7 @@ img {
 	padding-top: 10px;
 }
 }
-/* Mobile and Tablet Rotated Layout: 914px to a max of 1081px. */
+/* Mobile and Tablet Rotated Layout: 914px to a max of 1023px. */
 @media (min-width: 843px){
 .gridContainer {
 	width: 89.0217%;
@@ -220,30 +220,18 @@ img {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 66.3003%;
+	width: 100%;
 	display: block;
 	color: #000;
 	text-align: justify;
-	font-family: sans-serif;
-	overflow: scroll;
-	position: sticky;
-	top: 0;
-	height: 100vh;
 }
 #sidebar {
 	clear: none;
 	float: right;
-	margin-left: 9.5238%;
-	width: 24.1758%;
+	width: 100%;
 	display: block;
 	color: #000;
 	text-align: justify;
-	margin-right: 0px;
-	font-family: sans-serif;
-	overflow: scroll;
-	position: sticky;
-	top: 0;
-	height: 100vh;
 }
 #about {
 	clear: both;
