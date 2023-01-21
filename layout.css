@@ -173,6 +173,8 @@ img {
 	color: #000;
 	text-align: justify;
 	overflow: scroll;
+	position: sticky;
+	top: 0;
 	height: 100vh;
 }
 #sidebar {
@@ -183,6 +185,8 @@ img {
 	color: #000;
 	text-align: justify;
 	overflow: scroll;
+	position: sticky;
+	top: 0;
 	height: 100vh;
 }
 #about {
