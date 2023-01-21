@@ -110,6 +110,8 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
+	overflow: scroll;
+	height: 100vh;
 }
 #sidebar {
 	clear: none;
@@ -118,6 +120,8 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
+	overflow: scroll;
+	height: 100vh;
 }
 #about {
 	clear: both;
