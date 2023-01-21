@@ -152,7 +152,7 @@ img {
 
 /* Desktop Layout: 769px to a max of 925px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
-@media only screen and (min-width: 811px) {
+@media only screen and (min-width: 810px) {
 .gridContainer {
 	width: 89.0217%;
 	max-width: 1232px;
