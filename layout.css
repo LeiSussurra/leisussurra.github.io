@@ -110,8 +110,6 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
-	overflow: scroll;
-	height: 100vh;
 }
 #sidebar {
 	clear: none;
@@ -120,8 +118,6 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
-	overflow: scroll;
-	height: 100vh;
 }
 #about {
 	clear: both;
@@ -172,10 +168,6 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
-	overflow: scroll;
-	position: sticky;
-	top: 0;
-	height: 100vh;
 }
 #sidebar {
 	clear: none;
@@ -184,10 +176,6 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
-	overflow: scroll;
-	position: sticky;
-	top: 0;
-	height: 100vh;
 }
 #about {
 	clear: both;
@@ -236,7 +224,6 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
-	overflow: scroll;
 }
 #sidebar {
 	clear: none;
@@ -245,7 +232,6 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
-	overflow: scroll;
 }
 #about {
 	clear: both;
