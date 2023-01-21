@@ -110,6 +110,11 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
+	overflow: scroll;
+	position: sticky;
+	scrollbar-width: none;
+	top: 0;
+	height: 100vh;
 }
 #sidebar {
 	clear: none;
@@ -118,6 +123,11 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
+	overflow: scroll;
+	position: sticky;
+	scrollbar-width: none;
+	top: 0;
+	height: 100vh;
 }
 #about {
 	clear: both;
@@ -169,6 +179,11 @@ img {
 	color: #000;
 	text-align: justify;
 	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	scrollbar-width: none;
+	top: 0;
+	height: 100vh;
 }
 #sidebar {
 	clear: none;
@@ -180,6 +195,11 @@ img {
 	text-align: justify;
 	margin-right: 0px;
 	font-family: sans-serif;
+	overflow: scroll;
+	position: sticky;
+	scrollbar-width: none;
+	top: 0;
+	height: 100vh;
 }
 #about {
 	clear: both;
