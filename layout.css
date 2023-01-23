@@ -37,21 +37,23 @@ img, object, embed, video {
 	padding-right: 1.1869%;
 	font-family: sans-serif;
 }
-#header {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
+	
+.fixed-nav-bar { 
+	clear: both; 
+	width: 100%; 
 	display: block;
-}
+
+	}
+	
 #articles {
-	clear: both;
+	clear: none;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 	color: #000;
 	text-align: justify;
+	padding-top: 0px;
 }
 #sidebar {
 	clear: none;
@@ -60,6 +62,7 @@ img, object, embed, video {
 	display: block;
 	color: #000;
 	text-align: justify;
+	padding-top: 0;
 }
 #about {
 	clear: both;
@@ -70,7 +73,7 @@ img, object, embed, video {
 	color: #000;
 	text-align: justify;
 }
-img {
+.img-articles {
 	float: none;
 	padding-bottom: 10px;
 	margin-right: auto;
@@ -78,9 +81,9 @@ img {
 	display: block;
 }
 #logo {
-	float: none;
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
@@ -95,13 +98,20 @@ img {
 	padding-right: 0.7581%;
 	font-family: sans-serif;
 }
-#header {
-	clear: both;
-	float: left;
-	margin-left: 0;
+	
+.fixed-nav-bar { 
+	position: fixed; 
+	overflow:visible;
+	top: 0;
+	left: 0; 
+	z-index: 9999; 
 	width: 100%;
-	display: block;
-}
+	height: 140px;
+	background-image: url(images/rough_canvas.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	}
+	
 #articles {
 	clear: both;
 	float: left;
@@ -110,6 +120,7 @@ img {
 	display: block;
 	color: #000;
 	text-align: justify;
+	padding-top: 148px;
 }
 #sidebar {
 	clear: none;
@@ -128,15 +139,15 @@ img {
 	color: #000;
 	text-align: justify;
 }
-img {
+.img-articles {
 	float: right;
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
 #logo {
-	float: none;
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
@@ -153,13 +164,19 @@ img {
 	margin: auto;
 	font-family: sans-serif;
 }
-#header {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
+	
+.fixed-nav-bar { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: 9999; 
+	width: 100%; 
+	height: 140px;
+	background-image: url(images/rough_canvas.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	}
+
 #articles {
 	clear: both;
 	float: left;
@@ -186,15 +203,15 @@ img {
 	color: #000;
 	text-align: justify;
 }
-img {
+.img-articles {
 	float: right;
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
 #logo {
-	float: none;
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
@@ -210,13 +227,19 @@ img {
 	margin: auto;
 	font-family: sans-serif;
 }
-#header {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
+	
+.fixed-nav-bar { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: 9999; 
+	width: 100%; 
+	height: 145px;
+	background-image: url(images/rough_canvas.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	}
+	
 #articles {
 	clear: both;
 	float: left;
@@ -230,9 +253,10 @@ img {
 	position: sticky;
 	top: 0;
 	height: 100vh;
+	padding-top: 145px;
 }
 #sidebar {
-	clear: none;
+	
 	float: right;
 	margin-left: 9.5238%;
 	width: 24.1758%;
@@ -245,6 +269,7 @@ img {
 	position: sticky;
 	top: 0;
 	height: 100vh;
+	padding-top: 145px;
 }
 #about {
 	clear: both;
@@ -255,15 +280,15 @@ img {
 	color: #000;
 	text-align: justify;
 }
-img {
+.img-articles {
 	float: right;
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
 #logo {
-	float: none;
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
