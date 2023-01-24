@@ -87,6 +87,12 @@ img, object, embed, video {
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
+	
+.gotoarticle {
+	margin: 0;
+	scroll-margin-top: 0em;
+
+}	
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
