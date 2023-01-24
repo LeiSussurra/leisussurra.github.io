@@ -150,7 +150,7 @@ img, object, embed, video {
 	padding-top: 10px;
 }
 	
-#gotoarticle {
+.gotoarticle {
 	margin: 0;
 	scroll-margin-top: 7em;
 
@@ -219,7 +219,7 @@ img, object, embed, video {
 	padding-top: 10px;
 }
 	
-#gotoarticle {
+.gotoarticle {
 	margin: 0;
 	scroll-margin-top: 7em;
 
@@ -301,10 +301,9 @@ img, object, embed, video {
 	padding-top: 10px;
 }
 	
-#gotoarticle {
+.gotoarticle {
 	margin: 0;
 	scroll-margin-top: 7em;
 
 }
 }
-
