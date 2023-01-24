@@ -100,8 +100,7 @@ img, object, embed, video {
 }
 	
 .fixed-nav-bar { 
-	position: fixed; 
-	overflow:visible;
+	position: fixed;
 	top: 0;
 	left: 0; 
 	z-index: 9999; 
