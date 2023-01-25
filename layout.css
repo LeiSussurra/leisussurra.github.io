@@ -32,9 +32,9 @@ img, object, embed, video {
 .gridContainer {
 	margin-left: auto;
 	margin-right: auto;
-	width: 88.626%;
-	padding-left: 1.1869%;
-	padding-right: 1.1869%;
+	width: 95%;
+	padding-left: 0;
+	padding-right: 0;
 	font-family: sans-serif;
 }
 	
@@ -94,7 +94,7 @@ h4 {
 	
 .gotoarticle {
 	margin: 0;
-	scroll-margin-top: -1rem;
+	scroll-margin-top: -1.85rem;
 
 }	
 }
@@ -279,6 +279,7 @@ h4 {
 	position: sticky;
 	top: 145px;
 	height: 100vh;
+	
 }
 	
 .img-articles {
@@ -288,12 +289,10 @@ h4 {
 }
 	
 #sidebar {
-	
 	float: right;
 	margin-left: 9.5238%;
 	width: 24.1758%;
 	display: block;
-	color: #000;
 	text-align: justify;
 	margin-right: 0px;
 	font-family: sans-serif;
