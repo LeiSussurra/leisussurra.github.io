@@ -47,7 +47,10 @@ img, object, embed, video {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-
+	}
+	
+	.topimgpadding {
+		padding-top: 40px;
 	}
 	
 #articles {
@@ -94,13 +97,13 @@ h4 {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	padding-top: 5px;
 }
 	
 .gotoarticle {
 	margin: 0;
-	scroll-margin-top: 1.8rem;
+	scroll-margin-top: 25px;
 
 }	
 }
