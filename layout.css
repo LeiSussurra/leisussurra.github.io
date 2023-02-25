@@ -47,11 +47,11 @@ img, object, embed, video {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	}
+}
 	
-	.topimgpadding {
-		padding-top: 40px;
-	}
+.topimgpadding {
+	padding-top: 40px;
+}
 	
 #articles {
 	display: block;
@@ -127,7 +127,11 @@ h4 {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	}
+}
+
+.topimgpadding {
+	padding-top: 0px;
+}
 	
 #articles {
 	clear: both;
@@ -201,7 +205,11 @@ h4 {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	}
+}
+
+.topimgpadding {
+	padding-top: 0px;
+}
 
 #articles {
 	clear: both;
@@ -273,7 +281,11 @@ h4 {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	}
+}
+	
+.topimgpadding {
+	padding-top: 0px;
+}
 	
 #articles {
 	clear: both;
