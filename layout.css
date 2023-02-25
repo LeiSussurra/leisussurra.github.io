@@ -39,19 +39,11 @@ img, object, embed, video {
 }
 	
 .fixed-nav-bar { 
-	position: fixed;
-	top: 0;
-	left: 0; 
-	z-index: 9999; 
-	width: 100%;
-	background-image: url(images/rough_canvas.jpg);
-	background-repeat: repeat;
-	background-attachment: fixed;
-}
-	
-.topimgpadding {
-	padding-top: 40px;
-}
+	clear: both; 
+	width: 100%; 
+	display: block;
+
+	}
 	
 #articles {
 	display: block;
@@ -93,17 +85,16 @@ h4 {
 }
 	
 #logo {
-	max-width:50%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
 	padding-bottom: 10px;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 	
 .gotoarticle {
 	margin: 0;
-	scroll-margin-top: 25px;
+	scroll-margin-top: -1.85rem;
 
 }	
 }
@@ -127,11 +118,7 @@ h4 {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-}
-
-.topimgpadding {
-	padding-top: 0px;
-}
+	}
 	
 #articles {
 	clear: both;
@@ -205,11 +192,7 @@ h4 {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-}
-
-.topimgpadding {
-	padding-top: 0px;
-}
+	}
 
 #articles {
 	clear: both;
@@ -281,11 +264,7 @@ h4 {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-}
-	
-.topimgpadding {
-	padding-top: 0px;
-}
+	}
 	
 #articles {
 	clear: both;
