@@ -39,11 +39,15 @@ img, object, embed, video {
 }
 	
 .fixed-nav-bar { 
-	clear: both; 
-	width: 100%; 
-	display: block;
-
-	}
+	position: fixed;
+	top: 0;
+	left: 0; 
+	z-index: 9999; 
+	width: 100%;
+	background-image: url(images/rough_canvas.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
 	
 #articles {
 	display: block;
@@ -51,7 +55,9 @@ img, object, embed, video {
 	margin-right: auto;
 	width: 100%;
 	text-align: justify;
-	padding-top: 0px;
+	padding-top: 45px;
+	overflow: scroll;
+	position: sticky;
 }
 
 .img-articles {
@@ -85,16 +91,17 @@ h4 {
 }
 	
 #logo {
+	max-width: 50%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 3px;
+	padding-top: 3px;
 }
 	
 .gotoarticle {
 	margin: 0;
-	scroll-margin-top: -1.85rem;
+	scroll-margin-top: 1.55em;
 
 }	
 }
@@ -109,17 +116,16 @@ h4 {
 	font-family: sans-serif;
 }
 	
-.fixed-nav-bar { 
+.fixed-nav-bar {
 	position: fixed;
 	top: 0;
-	left: 0; 
-	z-index: 9999; 
-	width: 100%;
+	left: 0;
+	z-index: 9999;
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	}
-	
+}
+		
 #articles {
 	clear: both;
 	float: left;
@@ -128,7 +134,9 @@ h4 {
 	display: block;
 	color: #000;
 	text-align: justify;
-	padding-top: 148px;
+	padding-top: 125px;
+	overflow: scroll;
+	position: sticky;
 }
 
 .img-articles {
@@ -158,6 +166,7 @@ h4 {
 }
 	
 #logo {
+	max-width:70%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -167,7 +176,7 @@ h4 {
 	
 .gotoarticle {
 	margin: 0;
-	scroll-margin-top: 7em;
+	scroll-margin-top: 5.4em;
 }	
 }
 
@@ -183,25 +192,23 @@ h4 {
 	font-family: sans-serif;
 }
 	
-.fixed-nav-bar { 
-	position: fixed; 
-	top: 0; 
-	left: 0; 
-	z-index: 9999; 
-	width: 100%;
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	}
+}
 
 #articles {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
-	display: block;
-	color: #000;
 	text-align: justify;
+	padding-top: 125px;
+	overflow: scroll;
+	position: sticky;
 }
 
 .img-articles {
@@ -231,6 +238,7 @@ h4 {
 }
 	
 #logo {
+	max-width:70%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -240,7 +248,7 @@ h4 {
 	
 .gotoarticle {
 	margin: 0;
-	scroll-margin-top: 7em;
+	scroll-margin-top: 6.5em;
 }	
 }
 
@@ -264,7 +272,7 @@ h4 {
 	background-image: url(images/rough_canvas.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	}
+}
 	
 #articles {
 	clear: both;
@@ -275,11 +283,9 @@ h4 {
 	color: #000;
 	text-align: justify;
 	font-family: sans-serif;
+	padding-top: 125px;
 	overflow: scroll;
-	position: sticky;
-	top: 145px;
-	height: 100vh;
-	
+	position: sticky;	
 }
 	
 .img-articles {
@@ -315,6 +321,7 @@ h4 {
 }
 
 #logo {
+	max-width:70%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -324,6 +331,6 @@ h4 {
 	
 .gotoarticle {
 	margin: 0;
-	scroll-margin-top: 7em;
+	scroll-margin-top: 6.6em;
 }
 }
