@@ -100,8 +100,8 @@ h4 {
 }
 	
 .gotoarticle {
-	margin: 0;
-	scroll-margin-top: 1.55em;
+	padding-top:65px;
+	margin-top:-65px;
 
 }	
 }
@@ -175,8 +175,8 @@ h4 {
 }
 	
 .gotoarticle {
-	margin: 0;
-	scroll-margin-top: 5.4em;
+	padding-top:143px;
+	margin-top:-143px;
 }	
 }
 
@@ -247,8 +247,8 @@ h4 {
 }
 	
 .gotoarticle {
-	margin: 0;
-	scroll-margin-top: 6.5em;
+	padding-top:145px;
+	margin-top:-145px;
 }	
 }
 
@@ -330,7 +330,7 @@ h4 {
 }
 	
 .gotoarticle {
-	margin: 0;
-	scroll-margin-top: 6.6em;
+	padding-top:145px;
+	margin-top:-145px;
 }
 }
