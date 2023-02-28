@@ -91,17 +91,14 @@ h4 {
 }
 	
 #logo {
-	max-width: 50%;
+	max-width: 180px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	padding-bottom: 3px;
-	padding-top: 3px;
 }
 	
 .gotoarticle {
-	padding-top:65px;
-	margin-top:-65px;
+	padding-top:50px;
 
 }	
 }
