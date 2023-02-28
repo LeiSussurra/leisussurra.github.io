@@ -55,7 +55,7 @@ img, object, embed, video {
 	margin-right: auto;
 	width: 100%;
 	text-align: justify;
-	padding-top: 45px;
+	padding-top: 32px;
 	overflow: scroll;
 	position: sticky;
 }
@@ -99,6 +99,7 @@ h4 {
 	
 .gotoarticle {
 	padding-top:50px;
+	margin-top:-50px;
 
 }	
 }
@@ -131,7 +132,7 @@ h4 {
 	display: block;
 	color: #000;
 	text-align: justify;
-	padding-top: 125px;
+	padding-top: 91.6px;
 	overflow: scroll;
 	position: sticky;
 }
@@ -163,17 +164,15 @@ h4 {
 }
 	
 #logo {
-	max-width:70%;
+	max-width:330px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	padding-bottom: 10px;
-	padding-top: 10px;
 }
 	
 .gotoarticle {
-	padding-top:143px;
-	margin-top:-143px;
+	padding-top: 91.6px;
+	margin-top: -91.6px;
 }	
 }
 
@@ -203,7 +202,7 @@ h4 {
 	float: left;
 	margin-left: 0;
 	text-align: justify;
-	padding-top: 125px;
+	padding-top: 97px;
 	overflow: scroll;
 	position: sticky;
 }
@@ -235,7 +234,7 @@ h4 {
 }
 	
 #logo {
-	max-width:70%;
+	max-width:350px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -244,8 +243,8 @@ h4 {
 }
 	
 .gotoarticle {
-	padding-top:145px;
-	margin-top:-145px;
+	padding-top: 116px;
+	margin-top: -116px;
 }	
 }
 
@@ -280,7 +279,7 @@ h4 {
 	color: #000;
 	text-align: justify;
 	font-family: sans-serif;
-	padding-top: 125px;
+	padding-top: 91px;
 	overflow: scroll;
 	position: sticky;	
 }
@@ -318,16 +317,13 @@ h4 {
 }
 
 #logo {
-	max-width:70%;
+	max-width:400px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	padding-bottom: 10px;
-	padding-top: 10px;
 }
-	
 .gotoarticle {
-	padding-top:145px;
-	margin-top:-145px;
+	padding-top: 111.1px;
+	margin-top: -111.1px;
 }
 }
