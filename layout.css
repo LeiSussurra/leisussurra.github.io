@@ -272,7 +272,7 @@ img, object, embed, video {
 .left {
 	float: left;
 	text-align: center;
-	height: 92vh;
+	height: 96vh;
 	height: -webkit-fill-available;
 	overflow-y: scroll;
 	align-content: center;
@@ -282,7 +282,7 @@ img, object, embed, video {
 .right {
 	float: right;
 	text-align: center;
-	height: 92vh;
+	height: 96vh;
 	height: -webkit-fill-available;
 	overflow-y: scroll;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
