@@ -90,6 +90,26 @@ img, object, embed, video {
     padding-top: 50px;
     margin-top: -50px;
   }
+	
+.left {
+	float: left;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	align-content: center;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+.right {
+	float: right;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
 }
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
@@ -124,9 +144,6 @@ img, object, embed, video {
     float: right;
     padding-bottom: 10px;
     padding-left: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
   }
   #sidebar {
     float: right;
@@ -168,6 +185,26 @@ img, object, embed, video {
 	text-align: center;
 	font-size: 14pt;
 }
+	
+.left {
+	float: left;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	align-content: center;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+.right {
+	float: right;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
 }
 
 /* Desktop Layout: 769px to a max of 925px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -201,9 +238,6 @@ img, object, embed, video {
     float: right;
     padding-bottom: 10px;
     padding-left: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
   }
   #sidebar {
     float: right;
@@ -234,6 +268,26 @@ img, object, embed, video {
     padding-top: 116px;
     margin-top: -116px;
   }
+	
+.left {
+	float: left;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	align-content: center;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+.right {
+	float: right;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}	
 }
 /* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
 @media (min-width: 1023px) {
@@ -272,9 +326,6 @@ img, object, embed, video {
     float: right;
     padding-bottom: 10px;
     padding-left: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
   }
   #sidebar {
     float: right;
@@ -308,5 +359,24 @@ img, object, embed, video {
   .gotoarticle {
     padding-top: 131.1px;
     margin-top: -131.1px;
+}
+
+.left {
+	float: left;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+.right {
+	float: right;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
 }
 }
