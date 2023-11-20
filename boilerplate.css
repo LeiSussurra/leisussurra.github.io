@@ -42,17 +42,6 @@ body { margin: 0; font-size: 16px; line-height: 1.231; }
 
 body, button, input, select, textarea { font-family: sans-serif; color: #000; }
 
-body::-webkit-scrollbar {
-width: 0px;
-background: transparent;
-}
-
-@-moz-document url-prefix() {
-html {
-scrollbar-width: none;
- }
-}
-
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
@@ -237,6 +226,20 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: 
    ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ==|== non-semantic helper classes ========================================
