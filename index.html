@@ -33,8 +33,15 @@ background-attachment: fixed;
 scrollbar-width: none; /* Firefox */
 }
 
-::-webkit-scrollbar {
-display: none; /* Safari and Chrome */
+body::-webkit-scrollbar {
+width: 0px;
+background: transparent;
+}
+
+@-moz-document url-prefix() {
+html {
+scrollbar-width: none;
+ }
 }
 
 a:link {
