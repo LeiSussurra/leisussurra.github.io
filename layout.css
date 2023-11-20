@@ -94,9 +94,9 @@ img, object, embed, video {
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
   .gridContainer {
-    width: 95%;
-    padding-left: 0.4891%;
-    padding-right: 0.4891%;
+    width: 91.4836%;
+    padding-left: 0.7581%;
+    padding-right: 0.7581%;
     font-family: sans-serif;
   }
   .fixed-nav-bar {
@@ -173,7 +173,8 @@ img, object, embed, video {
 /* Desktop Layout: 769px to a max of 925px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 769px) {
   .gridContainer {
-    width: 95%;
+    width: 89.0217%;
+    max-width: 1232px;
     padding-left: 0.4891%;
     padding-right: 0.4891%;
     margin: auto;
@@ -237,7 +238,8 @@ img, object, embed, video {
 /* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
 @media (min-width: 1023px) {
   .gridContainer {
-    width: 95%;
+    width: 89.0217%;
+    max-width: 1232px;
     padding-left: 0.4891%;
     padding-right: 0.4891%;
     margin: auto;
