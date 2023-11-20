@@ -94,7 +94,7 @@ img, object, embed, video {
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 481px) {
   .gridContainer {
-    width: 95.0217%;
+    width: 95%;
     padding-left: 0.4891%;
     padding-right: 0.4891%;
     font-family: sans-serif;
@@ -173,7 +173,7 @@ img, object, embed, video {
 /* Desktop Layout: 769px to a max of 925px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 769px) {
   .gridContainer {
-    width: 95.0217%;
+    width: 95%;
     padding-left: 0.4891%;
     padding-right: 0.4891%;
     margin: auto;
@@ -237,7 +237,7 @@ img, object, embed, video {
 /* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
 @media (min-width: 1023px) {
   .gridContainer {
-    width: 95.0217%;
+    width: 95%;
     padding-left: 0.4891%;
     padding-right: 0.4891%;
     margin: auto;
@@ -257,7 +257,7 @@ img, object, embed, video {
     clear: both;
     float: left;
     margin-left: 0;
-    width: 68.3003%;
+    width: 68%;
     display: block;
     color: #000;
     text-align: justify;
@@ -276,7 +276,7 @@ img, object, embed, video {
   }
   #sidebar {
     float: right;
-    width: 30.1758%;
+    width: 32%;
     display: block;
     text-align: justify;
     margin-right: 0px;
