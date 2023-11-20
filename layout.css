@@ -50,7 +50,7 @@ img, object, embed, video {
     margin-right: auto;
     width: 100%;
     text-align: justify;
-    padding-top: 31px;
+    padding-top: 32px;
     overflow: scroll;
     position: sticky;
   }
@@ -116,7 +116,7 @@ img, object, embed, video {
     display: block;
     color: #000;
     text-align: justify;
-    padding-top: 72px;
+    padding-top: 91.6px;
     overflow: scroll;
     position: sticky;
   }
@@ -259,7 +259,7 @@ img, object, embed, video {
     clear: both;
     float: left;
     margin-left: 0;
-    width: 68%;
+    width: 66.3003%;
     display: block;
     color: #000;
     text-align: justify;
@@ -278,7 +278,8 @@ img, object, embed, video {
   }
   #sidebar {
     float: right;
-    width: 30%;
+    margin-left: 9.5238%;
+    width: 24.1758%;
     display: block;
     text-align: justify;
     margin-right: 0px;
