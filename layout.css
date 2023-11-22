@@ -154,9 +154,9 @@ img, object, embed, video {
     display: block;
   }
   .gotoarticle {
-    padding-top: 91.6px;
-    margin-top: -91.6px;
-   }
+    padding-top: 116px;
+    margin-top: -116px;
+  }
 }
 
 /* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
