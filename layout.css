@@ -107,7 +107,7 @@ img, object, embed, video {
     background-image: url(images/rough_canvas.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
-		padding-bottom: 10px;
+    padding-bottom: 10px;
     padding-top: 10px;
   }
   #articles {
@@ -177,7 +177,7 @@ img, object, embed, video {
     background-image: url(images/rough_canvas.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
-		padding-bottom: 10px;
+    padding-bottom: 10px;
     padding-top: 10px;
   }
   #articles {
