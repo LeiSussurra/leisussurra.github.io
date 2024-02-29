@@ -24,7 +24,7 @@ img, object, embed, video {
 	and Golden Grid System by Joni Korpi
 	http://goldengridsystem.com/
 */
-/* Mobile Layout: 200px to 480px */
+/* Mobile Layout: 200px to 609px */
 @media only screen and (min-width: 200px) {
   .gridContainer {
     margin-left: auto;
@@ -91,8 +91,8 @@ img, object, embed, video {
     margin-top: -50px;
    }
 }
-/* Tablet Layout: 481px to 835px. Inherits styles from: Mobile Layout. */
-@media only screen and (min-width: 481px) {
+/* Tablet Layout: 610px to 835px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 610px) {
   .gridContainer {
     width: 95%;
     padding-left: 0.4891%;
