@@ -24,7 +24,7 @@ img, object, embed, video {
 	and Golden Grid System by Joni Korpi
 	http://goldengridsystem.com/
 */
-/* Mobile Layout: 200px to 609px */
+/* Mobile Layout: 200px to 598px */
 @media only screen and (min-width: 200px) {
   .gridContainer {
     margin-left: auto;
@@ -87,12 +87,78 @@ img, object, embed, video {
     display: block;
   }
   .gotoarticle {
-    padding-top: 50px;
-    margin-top: -50px;
+ 
    }
 }
-/* Tablet Layout: 610px to 835px. Inherits styles from: Mobile Layout. */
-@media only screen and (min-width: 610px) {
+/* Tablet Layout: 599px to 650px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 599px) {
+  .gridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: sans-serif;
+  }
+  .fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-image: url(images/rough_canvas.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+  #articles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: justify;
+    padding-top: 52px;
+    overflow: scroll;
+    position: sticky;
+  }
+  .img-articles {
+    float: none;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  #sidebar {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: justify;
+    padding-top: 0;
+  }
+  .img-sidebar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h4 {
+    font-family: Helvetica, Arial, 'sans-serif';
+    color: #600;
+    text-align: center;
+  }
+	 #logo {
+    max-width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  .gotoarticle {
+    padding-top: 72px;
+    margin-top: -72px;
+  }
+}
+/* Tablet Layout: 651px to 835px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 651px) {
   .gridContainer {
     width: 95%;
     padding-left: 0.4891%;
