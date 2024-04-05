@@ -90,6 +90,25 @@ img, object, embed, video {
     padding-top: 50px;
     margin-top: -50px;
    }
+  .left {
+	float: left;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	align-content: center;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+  .right {
+	float: right;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
 }
 /* Tablet Layout: 599px to 650px. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 599px) {
@@ -157,6 +176,25 @@ img, object, embed, video {
     padding-top: 72px;
     margin-top: -72px;
   }
+  .left {
+	float: left;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	align-content: center;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+  .right {
+	float: right;
+	text-align: center;
+	height: 97vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
 }
 /* Tablet Layout: 651px to 835px. Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 651px) {
@@ -224,6 +262,25 @@ img, object, embed, video {
     padding-top: 116px;
     margin-top: -116px;
   }
+  .left {
+	float: left;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	align-content: center;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+  .right {
+	float: right;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
 }
 
 /* Desktop Layout: 1081px to a max of 1232px.  Resume Desktop Layout to max 1232px. */
@@ -300,4 +357,22 @@ img, object, embed, video {
     padding-top: 131.1px;
     margin-top: -131.1px;
    }
+  .left {
+	float: left;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+  .right {
+	float: right;
+	text-align: center;
+	height: 96vh;
+	height: -webkit-fill-available;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
 }
