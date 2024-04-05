@@ -99,6 +99,7 @@ img, object, embed, video {
 	align-content: center;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
   .right {
 	float: right;
@@ -108,6 +109,7 @@ img, object, embed, video {
 	overflow-y: scroll;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
 }
 /* Tablet Layout: 599px to 650px. Inherits styles from: Mobile Layout. */
@@ -166,7 +168,7 @@ img, object, embed, video {
     color: #600;
     text-align: center;
   }
-	 #logo {
+  #logo {
     max-width: 260px;
     margin-right: auto;
     margin-left: auto;
@@ -185,6 +187,7 @@ img, object, embed, video {
 	align-content: center;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
   .right {
 	float: right;
@@ -194,6 +197,7 @@ img, object, embed, video {
 	overflow-y: scroll;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
 }
 /* Tablet Layout: 651px to 835px. Inherits styles from: Mobile Layout. */
@@ -271,6 +275,7 @@ img, object, embed, video {
 	align-content: center;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
   .right {
 	float: right;
@@ -280,6 +285,7 @@ img, object, embed, video {
 	overflow-y: scroll;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
 }
 
@@ -365,6 +371,7 @@ img, object, embed, video {
 	overflow-y: scroll;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
   .right {
 	float: right;
@@ -374,5 +381,6 @@ img, object, embed, video {
 	overflow-y: scroll;
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
+	/* For Handwriting Comparison Page Only */
 }
 }
