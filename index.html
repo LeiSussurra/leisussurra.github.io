@@ -20,7 +20,13 @@
 <meta property="og:description" content="John Mark Karr was arrested in 2006 for the murder of six year old JonBenet Ramsey. Karr provided evidential information retained from the public by the authorities for over a decade.">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="layout.css" rel="stylesheet" type="text/css">
-<style type="text/css">
+
+<!--Fonts-->
+<link rel="preload" href="fonts/VIVALDII.TTF" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin>
+
+<style>
+
 body {
 background-color: #e1dbbb;
 background-image: url(images/rough_canvas.jpg);
@@ -28,7 +34,7 @@ background-repeat: repeat;
 background-attachment: fixed;
 }
 
-#sidebar, #articles {
+.sidebar, .articles {
 -ms-overflow-style: none; /* Internet Explorer 10+ */
 scrollbar-width: none; /* Firefox */
 }
@@ -58,6 +64,18 @@ a:active {
 text-decoration: none;
 }
 
+@font-face {
+  font-family:VIVALDII;
+  src: url(fonts/VIVALDII.TTF);
+  font-display: block;
+}
+
+@font-face {
+  font-family:OpenSans-Light;
+  src: url(fonts/OpenSans-Light.ttf);
+  font-display: block;
+}
+
 </style>
 
 <script src="respond.min.js"></script>
@@ -67,9 +85,17 @@ text-decoration: none;
 </head>
 
 <body>
+
+<div style="display:block;max-width:1400px;margin-left:auto;margin-right:auto;">
+
 <div class="gridContainer clearfix">
-<div class="fixed-nav-bar"><img src="images/Logo.png" alt="LEI SUSSURRA" id="logo"></div>
-<div id="articles">
+
+<div class="fixed-nav-bar">
+<div class="lstitle">LeiSussurra</div>
+<div class="lssubtitle">Per Simpre Vigile</div>
+</div>
+
+<div class="articles">
 
 <h2 align="center"><img class="img-articles gotoarticle" id="jmkmuseum" src="images/KarrJonBenetRamseySantaBarbaraMuseum.jpg" alt="JMK Museum">Art Museum Exhibits<br>'John Mark Karr'</h2>
 <p><strong><em>The five feet by eight feet mirror image artwork hangs in unuttered effigy in the Santa Barbara Museum of Art with works by Monet and Picasso nearby.</em></strong></p>
@@ -489,7 +515,7 @@ Copyright 2011<br>
 All Rights Reserved<br>
 <a href="mailto:contact@leisussurra.uk">contact@leisussurra.uk</a></p>
 </div>
-<div align="center" id="sidebar">
+<div align="center" class="sidebar">
 <h4>SUMMARY OF SUBJECT </h4>
 <p>John Mark Karr was arrested in 2006 for the murder of six year old JonBenet Ramsey. Karr provided evidential information retained from the public by law enforcement and the coroner for over a decade giving authorities grounds to obtain an arrest warrant. A stunned world watched as Karr confessed to the murder though his incessant sharing seemingly ceased resulting in his release with law enforcement citing that there was not enough evidence to try him for first degree murder, kidnapping and sex assault. While the Boulder District Attorney and Boulder Police discount Karr's responsibility, certain detectives and handwriting experts still disagree.</p>
 <p>Karr rocked tabloid news in late March 2010 when it was discovered that he had changed his name, not once but two times, and possibly changed his sex to female. One of the new given names is amazingly similar in spelling to Karr's pseudonym, Daxis.</p>
@@ -523,6 +549,7 @@ All Rights Reserved<br>
 <p align="center"><a href="http://www.ansa.it" target="_blank">Agenzia Nazionale Stampa Associata</a></p>
 <p align="center"><a href="http://www.libero-news.it" target="_blank">Liberola</a></p>
 <p align="center"><a href="http://www.repubblica.it" target="_blank">Repubblica</a></p>
+</div>
 </div>
 </div>
 
