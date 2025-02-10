@@ -43,14 +43,40 @@ img, object, embed, video {
     background-image: url(images/rough_canvas.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+    padding-top: 0px;    
+    padding-bottom: 5px;
   }
-  #articles {
+  #logo {
+    max-width: 180px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  .lstitle {
+  font-family:VIVALDII;
+  font-size:2.5rem;
+  color:#000099;
+  font-weight:bold;
+  text-align:center;
+  }
+  .lssubtitle {
+  font-family:OpenSans-Light;
+  font-size:0.8rem;
+  color:#003333;
+  text-align:center;
+  margin-top:-12px;
+  }
+  .gotoarticle {
+    padding-top: 58px;
+    margin-top: -58px;
+   }
+  .articles{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     text-align: justify;
-    padding-top: 31px;
+    padding-top: 38px;
     overflow: scroll;
     position: sticky;
   }
@@ -61,7 +87,7 @@ img, object, embed, video {
     margin-left: auto;
     display: block;
   }
-  #sidebar {
+  .sidebar {
     width: 100%;
     display: block;
     margin-left: auto;
@@ -80,16 +106,6 @@ img, object, embed, video {
     color: #600;
     text-align: center;
   }
-  #logo {
-    max-width: 180px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-  }
-  .gotoarticle {
-    padding-top: 50px;
-    margin-top: -50px;
-   }
   .left {
 	float: left;
 	text-align: center;
@@ -131,14 +147,40 @@ img, object, embed, video {
     background-image: url(images/rough_canvas.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+    padding-top: 3px;    
+    padding-bottom: 5px;
   }
-  #articles {
+  #logo {
+    max-width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  .lstitle {
+  font-family:VIVALDII;
+  font-size:2.6rem;
+  color:#000099;
+  font-weight:bold;
+  text-align:center;
+  }
+  .lssubtitle {
+  font-family:OpenSans-Light;
+  font-size:0.8rem;
+  color:#003333;
+  text-align:center;
+  margin-top:-12px;
+  }
+  .gotoarticle {
+    padding-top: 65px;
+    margin-top: -65px;
+  }
+  .articles{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     text-align: justify;
-    padding-top: 52px;
+    padding-top: 42px;
     overflow: scroll;
     position: sticky;
   }
@@ -149,7 +191,7 @@ img, object, embed, video {
     margin-left: auto;
     display: block;
   }
-  #sidebar {
+  .sidebar {
     width: 100%;
     display: block;
     margin-left: auto;
@@ -167,16 +209,6 @@ img, object, embed, video {
     font-family: Helvetica, Arial, 'sans-serif';
     color: #600;
     text-align: center;
-  }
-  #logo {
-    max-width: 260px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-  }
-  .gotoarticle {
-    padding-top: 72px;
-    margin-top: -72px;
   }
   .left {
 	float: left;
@@ -216,10 +248,34 @@ img, object, embed, video {
     background-image: url(images/rough_canvas.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+    padding-top: 8px;    
     padding-bottom: 10px;
-    padding-top: 10px;
   }
-  #articles {
+  #logo {
+    max-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  .lstitle {
+  font-family:VIVALDII;
+  font-size:2.9rem;
+  color:#000099;
+  font-weight:bold;
+  text-align:center;
+  }
+  .lssubtitle {
+  font-family:OpenSans-Light;
+  font-size:0.8rem;
+  color:#003333;
+  text-align:center;
+  margin-top:-12px;
+  }
+  .gotoarticle {
+    padding-top: 80px;
+    margin-top: -80px;
+  }
+  .articles{
     clear: both;
     float: left;
     margin-left: 0;
@@ -227,7 +283,7 @@ img, object, embed, video {
     display: block;
     color: #000;
     text-align: justify;
-    padding-top: 97px;
+    padding-top: 58px;
     overflow: scroll;
     position: sticky;
   }
@@ -239,7 +295,7 @@ img, object, embed, video {
     margin-right: auto;
     display: block;
   }
-  #sidebar {
+  .sidebar {
     float: right;
     width: 100%;
     display: block;
@@ -255,16 +311,6 @@ img, object, embed, video {
     font-family: Helvetica, Arial, 'sans-serif';
     color: #600;
     text-align: center;
-  }
-  #logo {
-    max-width: 350px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-  }
-  .gotoarticle {
-    padding-top: 116px;
-    margin-top: -116px;
   }
   .left {
 	float: left;
@@ -307,10 +353,34 @@ img, object, embed, video {
     background-image: url(images/rough_canvas.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+    padding-top: 8px;    
     padding-bottom: 10px;
-    padding-top: 10px;
   }
-  #articles {
+  #logo {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  .lstitle {
+  font-family:VIVALDII;
+  font-size:3.0rem;
+  color:#000099;
+  font-weight:bold;
+  text-align:center;
+  }
+  .lssubtitle {
+  font-family:OpenSans-Light;
+  font-size:0.9rem;
+  color:#003333;
+  text-align:center;
+  margin-top:-12px;
+  }
+  .gotoarticle {
+    padding-top: 85px;
+    margin-top: -85px;
+   }
+  .articles{
     clear: both;
     float: left;
     margin-left: 0;
@@ -319,7 +389,7 @@ img, object, embed, video {
     color: #000;
     text-align: justify;
     font-family: sans-serif;
-    padding-top: 111.1px;
+    padding-top: 63px;
     overflow: scroll;
     position: sticky;
   }
@@ -331,7 +401,7 @@ img, object, embed, video {
     margin-right: auto;
     display: block;
   }
-  #sidebar {
+  .sidebar {
     float: right;
     width: 30%;
     display: block;
@@ -340,7 +410,7 @@ img, object, embed, video {
     font-family: sans-serif;
     overflow: scroll;
     position: sticky;
-    top: 106px;
+    top: 63px;
     height: 100vh;
   }
   .img-sidebar {
@@ -353,16 +423,6 @@ img, object, embed, video {
     color: #600;
     text-align: center;
   }
-  #logo {
-    max-width: 400px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-  }
-  .gotoarticle {
-    padding-top: 131.1px;
-    margin-top: -131.1px;
-   }
   .left {
 	float: left;
 	text-align: center;
